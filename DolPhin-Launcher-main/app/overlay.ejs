@@ -1,0 +1,41 @@
+<div id="overlayContainer" style="display: none;">
+    <div id="serverSelectContent" style="display: none;">
+        <span id="serverSelectHeader">활성화된 서버</span>
+        <div id="serverSelectList">
+            <div id="serverSelectListScrollable">
+                <!-- Server listings populated here. -->
+            </div>
+        </div>
+        <div id="serverSelectActions">
+            <button id="serverSelectConfirm" class="overlayKeybindEnter" type="submit">선택</button>
+            <div id="serverSelectCancelWrapper">
+                <button id="serverSelectCancel" class="overlayKeybindEsc">취소</button>
+            </div>
+        </div>
+    </div>
+    <div id="accountSelectContent" style="display: none;">
+        <span id="accountSelectHeader">마인크래프트 계정을 선택</span>
+        <div id="accountSelectList">
+            <div id="accountSelectListScrollable">
+                <!-- Accounts populated here. -->
+            </div>
+        </div>
+        <div id="accountSelectActions">
+            <button id="accountSelectConfirm" class="overlayKeybindEnter" type="submit">선택</button>
+            <div id="accountSelectCancelWrapper">
+                <button id="accountSelectCancel" class="overlayKeybindEsc">취소</button>
+            </div>
+        </div>
+    </div>
+    <div id="overlayContent">
+        <span id="overlayTitle"></span>
+        <span id="overlayDesc"></span>
+        <div id="overlayActionContainer">
+            <button id="overlayAcknowledge" class="overlayKeybindEnter">다시 시도하십시오</button>
+            <div id="overlayDismissWrapper">
+                <button id="overlayDismiss" style="display: none;" class="overlayKeybindEsc">거부됨</button>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/scripts/overlay.js"></script>
+</div>
